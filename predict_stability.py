@@ -43,7 +43,7 @@ voltage = '2h voltage '
 target = stability
 
 df = read_performance_data(
-    filename='data/Sol-gel synthesis-Re activity.csv',
+    filename='data/metal dissolution-20250506.csv',
    
     target=target,
     additional_cols=(

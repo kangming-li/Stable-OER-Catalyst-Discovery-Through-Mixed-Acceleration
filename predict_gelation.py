@@ -19,7 +19,7 @@ from sklearn.model_selection import KFold, StratifiedKFold
 #%%
 ''' Read data '''
 df = read_synthesis_data(
-    filename='data/Sol-gel synthesis-Re activity.csv',
+    filename='data/metal dissolution-20250506.csv',
     skiprows=1,
     )
 
